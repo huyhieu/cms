@@ -1,0 +1,237 @@
+.container.body{
+    background-color: #2a3f54;
+}
+
+.login_form_content{
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.56);
+
+}
+.input_login {
+    margin-bottom: 15px;
+}
+
+/**/
+td,th{
+    font-size: 13px;
+}
+.pagination{
+    margin: 0 !important;
+}
+.panel_toolbox>li{
+    margin-left: 5px;
+}
+@media (min-width: 768px){
+    .modal-add {
+        width: 400px;
+    }
+}
+
+label {
+    margin-bottom: 0 !important;
+    margin-top: 5px !important;
+    width: 100%;
+}
+.tag{
+    font-size: 100%;
+}
+.bootstrap-tagsinput{
+    width: 100%;
+}
+table.jambo_table tbody tr.selected {
+    background-color: rgba(182, 186, 224, 0.43);
+    color: black;
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-red{
+    color: #ff2455;
+}
+.bg-lightgray{
+    color: black;
+    background-color: #eee;
+}
+/**/
+#hoadon td{
+    font-size: 10px;
+    padding: 1px 2px !important;
+}
+#hoadon p{
+    font-size: 10px !important;
+    margin-bottom: 1px !important;
+}
+#hoadon table{
+    border: 1px solid lightgray;
+}
+#hoadon li{
+    font-size: 9px !important;
+}
+#hoadon ul{
+    padding: 0 15px;
+    margin-bottom: 0px;
+}
+#hoadon td span {
+    line-height: 20px;
+}
+#hoadon .slogan{
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    font-family: TimesNewRoman, "Times New Roman", Times,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+/**/
+.bang-banhang{
+    min-height: 444px;
+    border: 1px solid lightgray;
+    background-color: rgba(223, 240, 216, 0.34);
+    border-top: none;
+}
+.an{
+    display: none;
+}
+.widget-custom-padding{
+    padding: 9px 10px;
+}
+.table{
+    width: 100%;
+}
+.haibang .dataTables_filter,.dataTables_length{
+    width: 50% !important;
+    margin-bottom: 5px;
+}
+.hinhinma{
+    width: 350px;
+    height: 100px;
+    border: 1px solid lightgray;
+    margin: 10px;
+}
+.ma-trai {
+    float: left;
+}.ma-phai {
+     float: left;
+}
+.gia_ma{
+    color: black;
+    font-size: 12px;
+    margin-top: 2%;
+    font-family: monospace;
+    text-align: center;
+}
+.quanli{
+    display: none;
+}
+a,span,strong,body,td,tr,li,button,h1,h2,h3,h4,p{
+    font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+}
+.input-uppercase { text-transform: uppercase; }
+.bang-themhang{
+    min-height: 444px;
+    border: 1px solid lightgray;
+    background-color: rgba(223, 240, 216, 0.34);
+    border-top: none;
+}
+tr.group {
+    font-weight: bold;
+    background-color: #dddddd !important;
+}
+.dataTables_filter>label{
+    width: auto;
+}
+#khoangthoigian{
+    font-weight: bold;
+}
+th, td {
+    vertical-align: middle !important;
+}
+tr.selected {
+    background-color: rgba(255, 152, 0, 0.57) !important;
+    color: rgb(51, 51, 51) !important;
+}
+#bangsanphamnhapkho_wrapper > div.dt-buttons.btn-group{
+    display: none;
+}
+#bangsanphamnhapkho_filter{
+    float: none;width: auto;
+}
+#bangsanphamnhapkho_length{
+    display: none;
+}
+#bangsanphamnhapkho_wrapper > div:nth-child(1) > div:nth-child(1){
+    width: 0;
+}
+.input-table{
+    width: 40px;
+}
+table{
+    width: 100% !important;
+}
+td{
+    padding: 6px 4px !important;
+    font-size: 15px;
+}
+thead,tr{
+    width: 100%;
+}
+.dataTables_scrollFootInner{
+    padding-right: 0 !important;
+}
+
+table#chuyenhangNHOM_chitiet {
+    width: 100% !important;
+}
+#chuyenhangNHOM_chitiet_wrapper {
+    width: 54% !important;
+    float: left;
+    margin-left: 1%;
+    clear: none !important;
+}
+table#chuyenhangNHOM {
+    width: 100% !important;
+}
+#chuyenhangNHOM_wrapper {
+    width: 45% !important;
+    float: left;
+    clear: none !important;
+}
+table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting{
+    padding-right: 0 !important;
+}
+/**/
+#baocao td,#baocao th {
+    padding: 3px !important;
+    font-size: 12px;
+}
+#thongkeIN_wrapper > div:nth-child(2){
+    margin: -10px 0 0 0 !important;
+}
+#thongkeIN{
+    width: 100% !important;
+
+}
+#thongkeIN_wrapper{
+    position: inherit !important;
+    clear: none !important;
+    zoom: normal !important;
+}
+#thongkeIN_wrapper > div:nth-child(2) > div{
+    padding: 0 !important;
+    position: inherit !important;
+    float: none !important;
+}
+#bang_khachhang > tbody > tr > td:nth-child(5) {
+    width: 150px;text-transform: capitalize;
+}
+#bang_khachhang > tbody > tr > td:nth-child(3) {
+    text-transform: capitalize;
+}
+#bang_khachhang > tbody > tr > td {
+    text-transform: capitalize;
+}
+td,h1,h2,h3,h4,h5,h6,p {
+    color: black;
+}
