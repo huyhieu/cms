@@ -15,8 +15,15 @@ class SanPhamController  extends Controller
 
     public function getView()
     {
+        $user_id=\Auth::id();
+        $user=\DB::table(Tables::$tb_User)->where('id','=',$user_id)->first();
+        if($user->daily == 'SUPER')
+            $dailys = \DB::table(Tables::$tb_chinhanhs)->get();
+        else
+            $dailys = \DB::table(Tables::$tb_chinhanhs)->where('ma_cn','=',$user->daily)->get();
+
         return view('page.sanpham.sanphams',[
-            'chinhanhs'=>\DB::table(Tables::$tb_chinhanhs)->get(),
+            'chinhanhs'=>$dailys,
         ]);
     }
 
